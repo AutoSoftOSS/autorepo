@@ -1,0 +1,55 @@
+{
+  "name": "autorepo",
+  "version": "0.1.0",
+  "description": "Full Auto.",
+  "main": ".auto/build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autosoftoss/autorepo.git"
+  },
+  "author": "Connor White",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "keywords": [
+    "auto",
+    "repo"
+  ],
+  "exports": "./.auto/build/index.js",
+  "types": ".auto/build/index.d.ts",
+  "bin": {
+    "auto": ".auto/build/index.js"
+  },
+  "files": [
+    ".auto/build/**/!(tsconfig.tsbuildinfo)"
+  ],
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --incremental",
+    "dev": "ts-node-esm ./source/index.ts",
+    "lint": "eslint source --ext .ts",
+    "postbuild": "autobin",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@autosoft/autorepo-api": "*"
+  },
+  "devDependencies": {
+    "@autosoft/eslint-config": "*",
+    "@autosoft/jest-preset": "*",
+    "@autosoft/tsconfig": "*",
+    "autobin": "*",
+    "npm-package-json-lint-config-auto": "*"
+  },
+  "eslintConfig": {
+    "extends": "@autosoft/eslint-config"
+  },
+  "jest": {
+    "preset": "@autosoft/jest-preset"
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-auto"
+  }
+}
