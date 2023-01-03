@@ -11,7 +11,7 @@
 
 <br />
 
-<blockquote align="center">Full Auto.</blockquote>
+<blockquote align="center">Autorepo abstracts away your dev dependencies, providing a single command to run all of your scripts.</blockquote>
 
 <br />
 
@@ -27,8 +27,6 @@ _DM me on [Twitter](https://twitter.com/bconnorwhite) if you have questions or s
 
 ---
 <!-- auto header end -->
-
-Autorepo abstracts away your dev dependencies and provides a single command to run all of your scripts.
 
 ## Installation
 
