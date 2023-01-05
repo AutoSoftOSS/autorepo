@@ -1,6 +1,6 @@
 {
   "name": "autorepo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Autorepo abstracts away your dev dependencies, providing a single command to run all of your scripts.",
   "main": ".auto/build/index.js",
   "repository": {
@@ -42,8 +42,8 @@
     "@autosoft/eslint-config": "^1.0.2",
     "@autosoft/jest-preset": "^1.0.2",
     "@autosoft/tsconfig": "^1.0.1",
-    "npm-package-json-lint-config-auto": "^1.0.2",
-    "autobin": "^1.0.1"
+    "autobin": "^1.0.1",
+    "npm-package-json-lint-config-auto": "^1.0.2"
   },
   "eslintConfig": {
     "extends": "@autosoft/eslint-config"
