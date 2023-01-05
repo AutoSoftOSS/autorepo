@@ -31,6 +31,7 @@
     "dev": "ts-node-esm ./source/index.ts",
     "lint": "eslint source --ext .ts",
     "postbuild": "autobin",
+    "prepack": "yarn build",
     "release": "yarn version",
     "test": "jest"
   },
