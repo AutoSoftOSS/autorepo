@@ -33,8 +33,7 @@
     "lint": "eslint source --ext .ts",
     "postbuild": "autobin",
     "prepack": "yarn build",
-    "release": "yarn build && yarn dev release",
-    "test": "jest"
+    "release": "yarn build && yarn dev release"
   },
   "dependencies": {
     "@autosoft/autorepo-api": "^0.2.6"
