@@ -18,7 +18,8 @@
   "exports": "./.auto/build/index.js",
   "types": ".auto/build/index.d.ts",
   "bin": {
-    "auto": ".auto/build/index.js"
+    "auto": ".auto/build/index.js",
+    "autorepo": ".auto/build/index.js"
   },
   "files": [
     ".auto/build/**/!(tsconfig.tsbuildinfo)"
