@@ -33,7 +33,7 @@
     "lint": "eslint source --ext .ts",
     "postbuild": "autobin",
     "prepack": "yarn build",
-    "release": "yarn version",
+    "release": "yarn build && yarn dev release",
     "test": "jest"
   },
   "dependencies": {
