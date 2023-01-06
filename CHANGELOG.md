@@ -1,3 +1,12 @@
+## [0.1.5](https://github.com/autosoftoss/autorepo/compare/v0.1.4...v0.1.5) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump autorepo-api ([d7f3398](https://github.com/autosoftoss/autorepo/commit/d7f3398a140043c90a9da8527f104b9459ae0973))
+
+
+
 ## [0.1.4](https://github.com/autosoftoss/autorepo/compare/v0.1.3...v0.1.4) (2023-01-06)
 
 
