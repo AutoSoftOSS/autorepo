@@ -1,6 +1,6 @@
 {
   "name": "autorepo",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Autorepo abstracts away your dev dependencies, providing a single command to run all of your scripts.",
   "main": ".auto/build/index.js",
   "repository": {
