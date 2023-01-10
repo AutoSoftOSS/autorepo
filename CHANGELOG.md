@@ -1,3 +1,17 @@
+## [0.1.8](https://github.com/autosoftoss/autorepo/compare/v0.1.7...v0.1.8) (2023-01-10)
+
+
+### Bug Fixes
+
+* dependency bumps ([41dfd06](https://github.com/autosoftoss/autorepo/commit/41dfd0624a26d7d465ab238286432880d0cf1248))
+
+
+### Features
+
+* add version flag ([585d9b9](https://github.com/autosoftoss/autorepo/commit/585d9b96e08ab8d89c12530289a7fdfca049d576))
+
+
+
 ## [0.1.7](https://github.com/autosoftoss/autorepo/compare/v0.1.6...v0.1.7) (2023-01-07)
 
 
