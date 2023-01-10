@@ -1,3 +1,5 @@
 import { autorepo } from "@autosoft/autorepo-api";
 
-autorepo.parse();
+autorepo
+  .version(import.meta.url)
+  .parse();
