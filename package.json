@@ -2,19 +2,22 @@
   "name": "autorepo",
   "version": "0.1.7",
   "description": "Autorepo abstracts away your dev dependencies, providing a single command to run all of your scripts.",
-  "main": ".auto/build/index.js",
+  "license": "MIT",
+  "private": false,
+  "author": "Connor White",
+  "contributors": ["Connor White"],
+  "homepage": "https://github.com/autosoftoss/autorepo#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/autosoftoss/autorepo.git"
   },
-  "author": "Connor White",
-  "license": "MIT",
-  "private": false,
-  "type": "module",
+  "bugs": "https://github.com/autosoftoss/autorepo/issues",
   "keywords": [
     "auto",
     "repo"
   ],
+  "type": "module",
+  "main": ".auto/build/index.js",
   "exports": "./.auto/build/index.js",
   "types": ".auto/build/index.d.ts",
   "bin": {
@@ -30,7 +33,7 @@
   "scripts": {
     "build": "tsc --project ./tsconfig.json --incremental",
     "dev": "ts-node-esm ./source/index.ts",
-    "lint": "eslint source --ext .ts",
+    "lint": "eslint source --ext .ts && npmPkgJsonLint .",
     "postbuild": "autobin",
     "prepack": "yarn build",
     "release": "yarn build && yarn dev release"
