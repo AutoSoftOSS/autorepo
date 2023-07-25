@@ -41,7 +41,7 @@
     "release": "yarn build && yarn dev release"
   },
   "dependencies": {
-    "@autosoft/autorepo-api": "^0.2.14"
+    "@autosoft/autorepo-api": "^0.2.15"
   },
   "eslintConfig": {
     "extends": "@autosoft/eslint-config"
