@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc --project ./tsconfig.json --incremental",
-    "dev": "ts-node-esm ./source/index.ts",
+    "dev": "node --no-warnings --loader ts-node/esm ./source/index.ts",
     "lint": "eslint source --ext .ts && npmPkgJsonLint .",
     "postbuild": "autobin",
     "prepack": "yarn build",
